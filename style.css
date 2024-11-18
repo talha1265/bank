@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #492e0c, #c2b8ac);/* Light brownish background */
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+  a{
+    text-decoration: none;
+    color:#efe3e3;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+  }
+  
+  
+  .back-arrow {
+   padding-left: 10px;
+   margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content {
+    margin: 20px; /* Top-left alignment */
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: 500; /* Bold Poppins for heading */
+    color: #efe3e3;
+    margin-bottom: 10px;
+    margin-top: 0%;
+  }
+  
+  .amount {
+    font-size: 56px;
+    font-weight: 550; /* Bold Poppins for balance */
+    color: #efe3e3;
+    margin-bottom: 20px;
+  }
+  
+  .details, .bank-name {
+    font-size: 18px;
+    font-weight: 300; /* Normal Poppins for smaller text */
+    color: #fff;
+    margin-bottom: 0%;
+    margin-top: 0%;
+   
+  }
+ 
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 95%;
+    
+  }
+  
+  .footer img {
+    max-width: 350px; /* Adjust the logo size */
+    display: block;
+    margin-inline:  auto;
+    
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .heading {
+      font-size: 22px;
+    }
+  
+    .amount {
+      font-size: 48px;
+    }
+  
+    .details{
+        font-size: 17px;
+      } 
+    .bank-name {
+        font-size: 15px;
+      } 
+  
+    .footer img {
+      max-width: 200px;
+    }
+  }
+  
